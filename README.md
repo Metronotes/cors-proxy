@@ -12,6 +12,12 @@ cookies. Requesting [user credentials](http://www.w3.org/TR/cors/#user-credentia
 The app can be configured to require a header for proxying a request, for example to avoid
 a direct visit from the browser.
 
+## TODO
+
+1. Add simple in-memory caching, accessible by `/1m/*url*`, `/5m/*url*`, etc.
+2. Add response validation
+3. Add ability to configure the origin header name(e.g. `Referer` instead of `Origin`) to enable proper whitelisting
+
 ## Example
 
 ```javascript
